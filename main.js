@@ -23,6 +23,8 @@ console.log ("modelisloaded");
 function gotPoses(results) {
 if(results.length>0) {
     console.log(results);
+    console.log("nosex="+ results[0].pose.nose.x);
+    console.log("nosey="+ results[0].pose.nose.y);
 }
 
 }
